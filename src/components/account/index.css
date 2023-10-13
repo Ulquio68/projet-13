@@ -1,0 +1,49 @@
+.account-section {
+    border: white solid 1px;
+    width: 1400px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bloc-text-account {
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+    font-weight: bold;
+    width: 40%;
+}
+
+.transaction-button {
+    display: block;
+    width: 15%;
+    height: 40px;
+    padding: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+}
+
+.texteTitle {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.amount {
+    margin-bottom: 4px;
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.balance {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 20px;
+}

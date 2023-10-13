@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-part {
+    height: 400px;
+    position: relative;
+}
+
+.App-logo-index {
+    object-fit: cover;
+    object-position: 0 -300px;
+    width: 100%;
+    height: 400px;
+}
+
+.section-index {
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    background-color: white;
+    color: #2c3e50;
+    padding: 30px;
+}
+
+.section-index p {
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 400;
+}
+
+.section-index h2 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.infos-part {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-bottom: 2px #cccccc solid;
+}

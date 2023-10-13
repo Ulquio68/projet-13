@@ -1,0 +1,48 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App-logo-header {
+    width: 50%;
+}
+
+.App-logo-profile {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    padding-top: 19px;
+    padding-right: 5px;
+}
+
+.rightNav {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.link-right {
+    display: flex;
+    text-decoration: none;
+    font-weight: 1000;
+    color: #2c3e50;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    margin-right: 15px;
+}
+
+.link-right-bis {
+    display: flex;
+    text-decoration: none;
+    font-weight: 1000;
+    color: #2c3e50;
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+
+.link-right p:hover,
+.link-right-bis p:hover {
+    text-decoration: underline;
+}

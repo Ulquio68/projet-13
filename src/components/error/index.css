@@ -1,0 +1,21 @@
+.error {
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.success {
+    text-align: center;
+    color: green;
+}
+
+.h1-Title {
+    font-size: 300px;
+    margin: 0;
+}
+
+.h2-Title {
+    font-size: 50px;
+    padding-bottom: 100px;
+}

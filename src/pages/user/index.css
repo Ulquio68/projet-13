@@ -1,0 +1,86 @@
+#main-user {
+    height: 790px;
+    background-color: #12002b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-container p {
+    text-align: center;
+    width: 70%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.edit-button {
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.component-container {
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-bloc-edit {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#firstName,
+#lastName {
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 33%;
+}
+
+#firstName:focus,
+#lastName:focus {
+    border: 2px solid #00bc77;
+    border-radius: 0%;
+}
+
+.button-bloc-edit {
+    margin-top: 15px;
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-button,
+.cancel-button {
+    width: 140px;
+    border-color: #00bc77;
+    background-color: white;
+    color: #00bc77;
+    font-weight: bold;
+    padding: 8px;
+}
